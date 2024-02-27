@@ -24,6 +24,6 @@ public class SliderBehaviour : MonoBehaviour
     void Update()
     {
         Debug.Log(rSlider.value);
-        sliderImage.color = new Color(bSlider.value,rSlider.value,gSlider.value,aSlider.value);
+        sliderImage.color = new Color(rSlider.value,gSlider.value,bSlider.value,aSlider.value);
     }
 }
