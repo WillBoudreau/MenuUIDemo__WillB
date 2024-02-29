@@ -23,7 +23,7 @@ public class SliderBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(rSlider.value);
+        //Debug.Log(rSlider.value);
         sliderImage.color = new Color(rSlider.value,gSlider.value,bSlider.value,aSlider.value);
     }
 }
